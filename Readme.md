@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Юлия Козыряцкая](https://up.htmlacademy.ru/adaptive/18/user/1098757).
-* Наставник: `Неизвестно`.
+* Наставник: `Ксения Торкова`.
 
 ---
 
