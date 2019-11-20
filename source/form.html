@@ -38,9 +38,9 @@
         </fieldset>
         <fieldset class="form__contact-information contact-information">
           <legend class="contact-information__title">Контактная информация:</legend>
-          <input class="contact-information__data-in" type="text" id="form-number" placeholder="Введите телефон" />
+          <input class="contact-information__data-in" type="tel" id="form-number" placeholder="Введите телефон" />
           <label for="form-number">Контактный телефон*:</label>
-          <input class="contact-information__data-in" type="text" id="form-mail" placeholder="Введите e-mail" />
+          <input class="contact-information__data-in" type="email" id="form-mail" placeholder="Введите e-mail" />
           <label for="form-mail">Электронная почта*:</label>
         </fieldset>
         <fieldset class="form__impression impression">
@@ -81,11 +81,11 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="form__emotions emotions">
-          <legend class="emotions__title">Опишите свои эмоции:</legend>
-          <input class="emotions__data-in" type="text" id="form-emotions" placeholder="Опишите подробно все свои восторги" />
-        </fieldset>
-          <button type="submit" class="form-button">Отправить отзыв</button>
+        <div class="form__emotions emotions">
+          <b class="emotions__title">Опишите свои эмоции:</b>
+          <textarea class="emotions__data-in">Опишите подробно все свои восторги</textarea>
+        </div>
+        <button type="submit" class="form-button">Отправить отзыв</button>
       </form>
     </section>
   </main>
