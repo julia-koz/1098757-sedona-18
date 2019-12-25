@@ -4,32 +4,35 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="page-header">
-    <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="226" height="30" alt="Логотип «Седона»">
     <nav class="main-nav">
       <ul class="main-nav__list site-list">
-        <li class="site-list__item"><a>Главная</a></li>
-        <li class="site-list__item"><a href="photo.html">Фото и видео</a></li>
-        <li class="site-list__item"><a href="form.html">Форма отзыва</a></li>
-        <li class="site-list__item"><a href="https://htmlacademy.ru">HTML ACADEMY</a></li>
+        <li class="site-list__item item"><a class="site-list__link">Главная</a></li>
+        <li class="site-list__item item"><a href="photo.html" class="site-list__link">Фото и видео</a></li>
+        <li class="site-list__item item"><a href="form.html" class="site-list__link">Форма отзыва</a></li>
+        <li class="site-list__item item"><a href="https://htmlacademy.ru" class="site-list__link">HTML ACADEMY</a></li>
       </ul>
+      <img class="main-nav__logo-image" src="img/logo-sedona-mobile.svg" width="105" height="83" alt="Логотип «Седона»">
     </nav>
   </header>
   <main class="page-main">
     <header class="main-header">
-      <img class="main-header__image" src="#" alt="Фото Седоны">
+      <img class="main-header__image" src="img/bg-back-mobile@1x.jpg" width="100" alt="Фото Седоны">
       <h1 class="main-header__title">Седона-небольшой городок в аризоне,заслуживающий большего!</h1>
       <p class="main-header__intro">Рассмотрим 5 причин, по которым седона круче, чем каньон!</p>
     </header>
     <section class="advantages">
       <h1 class="visually-hidden">Наши преимущества</h1>
-      <h2 class="advantages__title">Настоящий городок</h2>
-      <span>-№1-</span>
-      <p class="advantages__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
-      <img class="advantages__image" src="#" alt="Фото домика в городе Седона">
+      <div class="advantages__blue-text">
+        <h2 class="advantages__title">Настоящий городок</h2>
+        <p class="advantages__number">-№1-</p>
+        <p class="advantages__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
+      </div>
+      <img class="advantages__image" src="img/main-city-mobile@1x.jpg" width="100"  alt="Фото домика в городе Седона">
       <ul class="advantages__list">
         <li class="advantages__item">
           <h3 class="advantages__subtitle">Жилье</h3>
@@ -50,19 +53,27 @@
           </p>
         </li>
       </ul>
-      <h2 class="advantages__title">Там есть мост дьявола</h2>
-      <span>-№2-</span>
-      <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-      <img class="advantages__image" src="#" alt="Фото мост дьявола">
-      <h2 class="advantages__title">Небольшая площадь</h2>
-      <span>-№3-</span>
-      <p class="advantages__description">Все интересные места находятся очень близко</p>
+      <div class="advantages__blue-text">
+        <h2 class="advantages__title">Там есть мост дьявола</h2>
+        <p class="advantages__number">-№2-</p>
+        <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+      </div>
+      <img class="advantages__image" src="img/main-bridge-mobile@1x.jpg" width="100" alt="Фото мост дьявола">
+      <div class="advantages__paragraph">
+        <h2 class="advantages__title">Небольшая площадь</h2>
+        <p class="advantages__number">-№3-</p>
+        <p class="advantages__description">Все интересные места находятся очень близко</p>
+      </div>
+        <div class="advantages__paragraph">
       <h2 class="advantages__title">Красивая дорога</h2>
-      <span>-№4-</span>
-      <p class="advantages__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-      <h2 class="advantages__title">Мало туристов</h2>
-      <span>-№5-</span>
-      <p class="advantages__description">Большинство едет в Гранд Каньон и толпится там</p>
+        <p class="advantages__number">-№4-</p>
+        <p class="advantages__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      </div>
+        <div class="advantages__paragraph">
+        <h2 class="advantages__title">Мало туристов</h2>
+        <p class="advantages__number">-№5-</p>
+        <p class="advantages__description">Большинство едет в Гранд Каньон и толпится там</p>
+      </div>
     </section>
   </main>
   <footer class="page-footer">
@@ -72,6 +83,7 @@
         <p class="contacts__text">
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие прелдложения гостиниц в седоне</p>
         <a href="#" class="contacts__buttom">Найти гостиницу</a>
+        <img class="contacts__image" src="img/bg-map-mobile@1x.jpg" width="100" alt="Карта">
       </div>
       <h2 class="page-footer__hashtag">#visitsedona</h2>
       <div class="page-footer__social social">
